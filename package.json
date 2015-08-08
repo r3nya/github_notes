@@ -1,0 +1,25 @@
+{
+  "name": "github_notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r3nya/github_notes.git"
+  },
+  "author": "Andrew M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r3nya/github_notes/issues"
+  },
+  "homepage": "https://github.com/r3nya/github_notes#readme",
+  "dependencies": {
+    "babel-core": "^5.8.21",
+    "babel-loader": "^5.3.2",
+    "react": "^0.13.3",
+    "webpack": "^1.11.0"
+  }
+}
