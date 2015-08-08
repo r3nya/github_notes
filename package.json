@@ -18,8 +18,10 @@
   "homepage": "https://github.com/r3nya/github_notes#readme",
   "dependencies": {
     "babel-core": "^5.8.21",
+    "babel-eslint": "^4.0.5",
     "babel-loader": "^5.3.2",
     "react": "^0.13.3",
+    "react-router": "^0.13.3",
     "webpack": "^1.11.0"
   }
 }
