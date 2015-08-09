@@ -26,5 +26,9 @@
     "react": "^0.13.3",
     "react-router": "^0.13.3",
     "webpack": "^1.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "browser-sync-webpack-plugin": "^0.2.1"
   }
 }

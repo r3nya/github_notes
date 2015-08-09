@@ -1,3 +1,5 @@
+var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+
 module.exports = {
   entry    : "./app/App.jsx",
   output   : {
@@ -11,5 +13,12 @@ module.exports = {
         loader   : 'babel'
       }
     ]
-  }
+  },
+  plugins  : [
+    new BrowserSyncPlugin({
+      host     : 'localhost',
+      port     : 3000,
+      server   : { baseDir: ['public'] }
+    })
+  ]
 };
