@@ -23,7 +23,7 @@
     "eslint": "^1.1.0",
     "eslint-config-airbnb": "0.0.7",
     "eslint-plugin-react": "^3.2.1",
-    "react": "^0.13.3",
+    "react": "^15.6.2",
     "react-router": "^0.13.3",
     "webpack": "^1.11.0"
   },
